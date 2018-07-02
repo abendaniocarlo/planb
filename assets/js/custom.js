@@ -74,3 +74,16 @@ Scroller.prototype = {
 
 var scroller = new Scroller();  
 scroller.init();
+
+
+// NAVBAR
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 650) {
+    $('nav').addClass('shrink');
+    $('.add').hide();
+  } else {
+    $('nav').removeClass('shrink');
+    $('.add').show();
+    
+  }
+});
