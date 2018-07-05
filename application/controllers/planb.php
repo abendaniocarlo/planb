@@ -8,5 +8,6 @@ class planb extends CI_Controller {
 	{
 		$header_data['title']="Plan B";
 		$this->load->view('include/header',$header_data);
+		$this->load->view('include/main');
 	}
 }

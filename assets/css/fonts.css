@@ -2,3 +2,13 @@
 font-family: Quicksand;
 src: url(../fonts/Quicksand-Bold.otf);
 }
+
+@font-face {
+font-family: Montserrat;
+src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+font-family: Raleway;
+src: url(../fonts/Raleway-Regular.ttf);
+}
