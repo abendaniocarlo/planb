@@ -14,9 +14,9 @@
 					<li><a href="#about" class="lnk">ABOUT US </a></li>
 					<li><a href="#services" class="lnk">SERVICES </a></li>
 					<li><a href="#products" class="lnk">PRODUCTS </a></li>
-					<li><a href="#client" class="lnk">CLIENT</a></li>
+					<li><a href="#clients" class="lnk">CLIENT</a></li>
 					<li><a href="#partners" class="lnk">PARTNERSHIP </a></li>
-					<li><a href="#contact" class="lnk">CONTACT </a></li>
+					<li><a href="#contact_us" class="lnk">CONTACT </a></li>
 				</ul>
 			</div>
 		</div>
@@ -402,8 +402,362 @@
 		</div>
 	</div>
 
+	<div id="clients" class="clients">
+		<h1 style="text-align:center;font-family:Montserrat;">OUR CLIENTS</h1>
+		<div id="myClientCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+		    <div class="carousel-inner">
+		      <div class="item active" style="background-color:#FFFFFF;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client1.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client2.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client3.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client4.png'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#FFFFFF;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client5.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client6.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client7.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client8.png'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#FFFFFF;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client9.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client10.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client11.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client12.png'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#FFFFFF;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client13.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client14.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client15.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client16.png'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#FFFFFF;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client17.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client18.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client19.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client20.png'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#FFFFFF;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client21.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client22.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client23.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client24.png'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#FFFFFF;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client25.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client26.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client27.png'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/client28.png'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		    <a class="left carousel-control" href="#myClientCarousel" data-slide="prev" style="display:none;">
+		      <span class="glyphicon glyphicon-chevron-left"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myClientCarousel" data-slide="next" style="display:none;">
+		      <span class="glyphicon glyphicon-chevron-right"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		</div>
+	</div>
+
+	<div id="workprocess" class="workprocess">
+		<div class="screen">
+		<div class="inner_workprocess">
+			<h1 style="margin-top:30px;text-align:center;font-family:Montserrat;color:#FFFFFF;">WORK PROCESS</h1>
+			<hr style="width: 200px;" />
+			<table>
+				<tr> 
+				  <div class="row process_box">
+					<div class="col-md-3 col-sm-6 process_icon">
+					<img src="<?php echo base_url ('assets/img/planning2.png'); ?>" alt="Planning" class="processimg" />
+					<h3>Planning</h3>
+					</div><div class="col-md-3 col-sm-6 process_icon">
+					<img src="<?php echo base_url ('assets/img/design2.png'); ?>" alt="Designing" class="processimg" />
+					<h3>Designing</h3>
+					</div><div class="col-md-3 col-sm-6 process_icon">
+					<img src="<?php echo base_url ('assets/img/development2.png'); ?>" alt="Development" class="processimg" />
+					<h3>Development</h3>
+					</div><div class="col-md-3 col-sm-6 process_icon">
+					<img src="<?php echo base_url ('assets/img/launch2.png'); ?>" alt="Launch" class="processimg" />
+					<h3>Launch</h3></div>
+				   </div>
+				</tr>
+			</table>	
+		</div>
+		</div>
+	</div>
+
+	<div id="partners" class="partners">
+		<div id="" class="container">
+		<h1 style="text-align:center;font-family:Montserrat;color:#FFFFFF;">OUR PARTNERS</h1>
+		<hr style="width: 200px;" />
+			<div class="row">
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners1.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners2.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners3.png'); ?>" alt="" />
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners4.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners5.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners6.png'); ?>" alt="" />
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners7.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners8.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners9.png'); ?>" alt="" />
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners10.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners11.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners12.png'); ?>" alt="" />
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners13.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners14.png'); ?>" alt="" />
+			  </div>
+			  <div class="column">
+			    <img src="<?php echo base_url ('assets/img/partners15.png'); ?>" alt="" />
+			  </div>
+			</div>
+		</div>
+	</div>
+	<div id="contact_us" class="footer">
+		<div class="footerscreen">
+		<div class="container-fluid">
+		<h1 style="text-align:center;">CONTACT US</h1>
+		<hr style="width: 200px;" />
+			<div class="row" style="margin:0px 50px 30px 50px;">
+				<div class=" col-lg-4 col-md-4 col-sm-12">
+					<div style="width:100%;height:100px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;border-radius:10px ">
+						<h1 style="margin:0px;">PLAN B LOGO HERE</h1>
+					</div>
+					<p class="contactdetails"><span class="glyphicon glyphicon-earphone"></span> (632) 123-1234</p>
+					<p class="contactdetails"><span class="glyphicon glyphicon-envelope"></span> email@address.com</p>
+					<p class="contactdetails"><span class="glyphicon glyphicon-map-marker"></span> location</p>
+					<p></p>
+					<table style="margin-top:20px;">
+						<tr>
+							<th>
+								<a href="#" id="fb_link">
+									<img src="<?php echo base_url ('assets/img/noncol_fb.png'); ?>" alt="Facebook" style="width:40px;margin-right:5px;" title="Facebook">
+								</a>
+							</th>
+							<th>
+								<a href="#" id="in_link">
+									<img src="<?php echo base_url ('assets/img/noncol_linkedin.png'); ?>" alt="LinkedIn" style="width:40px;margin-right:5px;" title="LinkedIn">
+								</a>
+							</th>
+							<th>
+								<a href="#" id="gp_link">
+									<img src="<?php echo base_url ('assets/img/noncol_gplus.png'); ?>" alt="Google+" style="width:40px;margin-right:5px;" title="Google+">
+								</a>
+							</th>
+							<th>
+								<a href="#" id="tw_link">
+									<img src="<?php echo base_url ('assets/img/noncol_twitter.png'); ?>" alt="Twitter" style="width:40px;margin-right:5px;" title="Twitter">
+								</a>
+							</th>
+							<th>
+								<a href="#" id="pn_link">
+									<img src="<?php echo base_url ('assets/img/noncol_pinterest.png'); ?>" alt="Pinterest" style="width:40px;margin-right:5px;" title="Pinterest">
+								</a>
+							</th>
+						</tr>
+					</table>
+<!-- 					<br>
+					<h3>ABOUT US</h3>
+					<p class="contactdetails">loremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p> -->
+				</div>
+				<div class=" col-lg-4 col-md-4 col-sm-12">
+					<p style="font-size: 15px;margin-top:0px;">Let us know how we can solve your business problem.</p>
+					<br>
+					<!-- <p style="font-size:12px;font-style:italic;margin-bottom:0;">* required</p> -->
+					<form action="#" class="footer-form">
+					    <div class="form-group">
+					      <!-- <label for="Name">Name:</label> -->
+					      <input type="name" class="form-control" id="Name" placeholder="Name*" name="name">
+					    </div>
+					    <div class="form-group">
+					      <!-- <label for="email">Email:</label> -->
+					      <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+					    </div>
+					    <div class="form-group">
+						  <!-- <label for="message">Comment:</label> -->
+						  <textarea class="form-control" rows="4" id="message" placeholder="Message*"></textarea>
+						</div>
+					    <button type="submit" class="btn btn-primary btn-block">Send message</button>
+					  </form>
+				</div>
+				<div class=" col-lg-4 col-md-4 col-sm-12">
+					<h3 style="margin-top: 0;">Newsletter</h3>
+					<p style="font-size:14px;font-style:italic;">Signup for our weekly newsletter and get the latest updates</p>
+					<br>
+					<form action="#" class="footer-form">
+					    <div class="form-group">
+					      <!-- <label for="email">Email:</label> -->
+					      <input type="email" class="form-control" id="email" placeholder="Enter your Email" name="email">
+					    </div>
+					    <button type="submit" class="btn btn-primary">Submit</button>
+					  </form>
+				</div>
+			</div>
+			<br>
+		</div>
+			<div style="background-color:#4D5656;height:45px;width:100%;margin:0px;display:table;">
+				<p style="text-align:center;vertical-align: middle;display:table-cell;font-size:12px;">Copyright &copy; 2018 PLAN B &#8226; All rights reserved</p>
+			</div>
+		</div>
+	</div>
+	<a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-menu-up"></span></a>
+
+<script type="text/javascript">
+	$(window).scroll(function(){
+		var wScroll = $(this).scrollTop();
+
+		if(wScroll > $('.partners').offset().top - 300){
+			$('.partners > .container > .row >.column').each(function(i){
+				setTimeout(function(){
+					$('.partners > .container > .row >.column').eq(i).addClass('toShow');}, 200 * (i + 1));
+				});
+		}
 	
 
+	});
+
+	if ($('#back-to-top').length) {
+	    var scrollTrigger = 100, // px
+	        backToTop = function () {
+	            var scrollTop = $(window).scrollTop();
+	            if (scrollTop > scrollTrigger) {
+		                $('#back-to-top').addClass('show');
+	            } else {
+	                $('#back-to-top').removeClass('show');
+	            }
+	        };
+	    backToTop();
+	    $(window).on('scroll', function () {
+	        backToTop();
+	    });
+	    $('#back-to-top').on('click', function (e) {
+	        e.preventDefault();
+	        $('html,body').animate({
+	            scrollTop: 0
+	        }, 700);
+	    });
+	}
+</script>
 				
 </body>
 </html>
