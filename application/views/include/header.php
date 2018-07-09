@@ -9,6 +9,7 @@
 </head>
 <body>
 	<script src="<?php echo base_url ('assets/js/jquery.min.js'); ?>"></script>
+	<script src="<?php echo base_url ('assets/js/fadeInfadeOut.js'); ?>"></script>
 	<script src="<?php echo base_url ('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
 	<script type="text/javascript">
 		// NAVBAR
