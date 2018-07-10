@@ -81,6 +81,7 @@
 				    	<!-- <p style="font-style: italic; font-size: 20px; color: #fff;">
 				    	we offer our customers the best services & solutions, this is our main services list
 				    	</p> -->
+				    	<h2></h2>
 				    	<div class="col-lg-12" style="margin-left: 13%;">
 					    	<div class="col-lg-3 offers">
 					    		<img src="<?php echo base_url('assets/img/o1.png');?>"><br>
@@ -141,9 +142,10 @@
 				<div class="item">
 				  	<div style="text-align: center; font-size: 28px; font-family: Montserrat;">
 				    	<p style="font-weight: bolder;">MULTI PLATFORMS FOR SOFTWARE DEVELOPMENT</p>
-				    	<p style="font-style: italic; font-size: 20px; color: #fff;">
+				    	<!-- <p style="font-style: italic; font-size: 20px; color: #fff;">
 				    	.NET, C++, C#, PHP, JAVA, etc..
-				    	</p>
+				    	</p> -->
+				    	<h2></h2>
 				    	<div class="col-lg-12 platforms">
 				    		<img src="<?php echo base_url('assets/img/s1_2.png');?>" 
 				    		onmouseover="this.src='assets/img/s1new.png'" onmouseout="this.src='assets/img/s1_2.png'">
@@ -164,9 +166,10 @@
 				<div class="item">
 				   	<div style="font-size: 28px;">
 				    	<p style="font-weight: bolder; text-align: center; font-family: Montserrat;">WE OFFER & DEVELOP</p>
-				    	<p style="font-style: italic; font-size: 20px; color: #fff; text-align: center;">
+				    	<!-- <p style="font-style: italic; font-size: 20px; color: #fff; text-align: center;">
 				    		Just tell us what you need and chances are we already have the technology fit for it.
-				    	</p>
+				    	</p> -->
+				    	<h2></h2>
 				    	<ul style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;"> <br>
 				    		<li> 
 				    			IT programs, including Accounting, CRM, Data mining system, POS, Human resource Management, Medical and other small and medium business software, to provide our customer with expert service.
@@ -203,6 +206,7 @@
 	<div class="products" id="products">
 		<p style="font-weight:bolder; font-family:Montserrat; text-align:center; font-size:29px; color:#000;">
 		PRODUCTS </p><br>
+		<h2></h2>
 	
 		<!-- <img src="<?php echo base_url('assets/img/line.png');?>"> -->
 
@@ -346,8 +350,8 @@
 	<div class="expertise">
 		<div class="blackoverlay">
 			<div class="title">
-				OTHER AREAS
-				<p style="font-size: 32px; color: #fff;">OF EXPERTISE</p>
+				OTHER AREAS OF
+				<p style="font-size: 41px; color: #fff;">EXPERTISE</p>
 			</div>
 			<div class="banner">
 				<div class="col-md-3" style="margin-top: 60px; margin-left: 20px;">
@@ -404,6 +408,7 @@
 
 	<div id="clients" class="clients">
 		<h1 style="text-align:center;font-family:Montserrat;">OUR CLIENTS</h1>
+		<h2></h2>
 		<div id="myClientCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 		    <div class="carousel-inner">
 		      <div class="item active" style="background-color:#FFFFFF;">
@@ -548,8 +553,10 @@
 		<div class="screen">
 		<div class="inner_workprocess">
 			<h1 style="margin-top:30px;text-align:center;font-family:Montserrat;color:#FFFFFF;">WORK PROCESS</h1>
-			<hr style="width: 200px;" />
-			<table>
+<!-- 			<hr style="width: 200px;" />
+ -->			
+ 			<h2></h2>
+ 			<table>
 				<tr> 
 				  <div class="row process_box">
 					<div class="col-md-3 col-sm-6 process_icon">
@@ -574,8 +581,10 @@
 	<div id="partners" class="partners">
 		<div id="" class="container">
 		<h1 style="text-align:center;font-family:Montserrat;color:#FFFFFF;">OUR PARTNERS</h1>
-		<hr style="width: 200px;" />
-			<div class="row">
+<!-- 		<hr style="width: 200px;" />
+ -->		
+ 			<h2></h2><br>
+ 			<div class="row">
 			  <div class="column">
 			    <img src="<?php echo base_url ('assets/img/partners1.png'); ?>" alt="" />
 			  </div>
@@ -636,7 +645,10 @@
 		<div class="footerscreen">
 		<div class="container-fluid">
 		<h1 style="text-align:center;">CONTACT US</h1>
-		<hr style="width: 200px;" />
+<!-- 		<hr style="width: 200px;" /> -->
+		<br>
+
+		<h2></h2>
 			<div class="row" style="margin:0px 50px 30px 50px;">
 				<div class=" col-lg-4 col-md-4 col-sm-12">
 					<div style="width:100%;height:100px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;border-radius:10px ">
@@ -684,10 +696,11 @@
 					<p style="font-size: 15px;margin-top:0px;">Let us know how we can solve your business problem.</p>
 					<br>
 					<!-- <p style="font-size:12px;font-style:italic;margin-bottom:0;">* required</p> -->
-					<form action="#" class="footer-form">
+					<!-- <form action="#" class="footer-form"> -->
+					<?php  echo form_open('planb_controller/send_message', ['class'=>'form-horizontal','id'=>'sendmessage']); ?>
 					    <div class="form-group">
 					      <!-- <label for="Name">Name:</label> -->
-					      <input type="name" class="form-control" id="Name" placeholder="Name*" name="name">
+					      <input type="name" class="form-control" id="Name" placeholder="Name*" name="naveme">
 					    </div>
 					    <div class="form-group">
 					      <!-- <label for="email">Email:</label> -->
@@ -698,8 +711,9 @@
 						  <textarea class="form-control" rows="4" id="message" placeholder="Message*"></textarea>
 						</div>
 					    <button type="submit" class="btn btn-primary btn-block">Send message</button>
-					  </form>
+					 <?php form_close();?>
 				</div>
+
 				<div class=" col-lg-4 col-md-4 col-sm-12">
 					<h3 style="margin-top: 0;">Newsletter</h3>
 					<p style="font-size:14px;font-style:italic;">Signup for our weekly newsletter and get the latest updates</p>
