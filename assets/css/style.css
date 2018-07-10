@@ -331,7 +331,7 @@ hr{
     position: absolute;
     bottom: 605px;
     left: 50%;
-    margin-left: -46px;
+    margin-left: -40px;
 }
 
 .products h2::before {
@@ -340,9 +340,9 @@ hr{
     width: 75px;
     height: 6px;  
     position: absolute;
-    bottom: 860px;
+    bottom: 845px;
     left: 50%;
-    margin-left: -46px;
+    margin-left: -40px;
 }
 
 #clients h2::before {
@@ -353,7 +353,7 @@ hr{
     position: absolute;
     bottom: 400px;
     left: 50%;
-    margin-left: -46px;
+    margin-left: -40px;
 }
 
 #workprocess h2::before {
@@ -364,7 +364,7 @@ hr{
     position: absolute;
     bottom: 290px;
     left: 50%;
-    margin-left: -46px;
+    margin-left: -40px;
 }
 
 #partners h2::before {
@@ -375,7 +375,7 @@ hr{
     position: absolute;
     bottom: 640px;
     left: 50%;
-    margin-left: -46px;
+    margin-left: -40px;
 }
 
 #contact_us h2::before {
@@ -386,7 +386,7 @@ hr{
     position: absolute;
     bottom: -5130px;
     left: 50%;
-    margin-left: -46px;
+    margin-left: -40px;
 }
 
 

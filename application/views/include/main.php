@@ -221,7 +221,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Hotel + Inventory Boss Kit</li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="http://www.kabslash.solutions/" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -357,48 +357,48 @@
 				<div class="col-md-3" style="margin-top: 60px; margin-left: 20px;">
 					<h4> CLOUD SERVICES</h4>
 					<div style="font-size: 15px; margin-left: 10px;" >
-						<p ><span class="glyphicon glyphicon-check"></span> Server and Infrastructure</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Backup Solutions</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Hosted Applications</p>
+						<p ><span class="lnr lnr-cloud"></span> Server and Infrastructure</p>
+						<p ><span class="lnr lnr-cloud"></span> Backup Solutions</p>
+						<p ><span class="lnr lnr-cloud"></span> Hosted Applications</p>
 					</div><br><br>
 					
 					<h4> NETWORK</h4>
 					<div style="font-size: 15px; margin-left: 10px;" >
-						<p ><span class="glyphicon glyphicon-check"></span> Network Design and Configuration</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Drafting and Documentation</p>
-						<p ><span class="glyphicon glyphicon-check"></span> VPN Tunneling</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Remote access and Satellite User Solutions</p>
+						<p ><span class="lnr lnr-earth"></span> Network Design and Configuration</p>
+						<p ><span class="lnr lnr-earth"></span> Drafting and Documentation</p>
+						<p ><span class="lnr lnr-earth"></span> VPN Tunneling</p>
+						<p ><span class="lnr lnr-earth"></span> Remote access and Satellite User Solutions</p>
 					</div>
 				</div>
 
 				<div class="col-md-4" style="margin-top: 60px; margin-left: 10px;">
 					<h4> TELECOMMUNICATIONS</h4>
 					<div style="font-size: 15px; margin-left: 10px;" >
-						<p ><span class="glyphicon glyphicon-check"></span> IP and Digital Telephony Systems</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Predictive Dialer Solutions</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Call center software Integration</p>
+						<p ><span class="lnr lnr-phone-handset"></span> IP and Digital Telephony Systems</p>
+						<p ><span class="lnr lnr-phone-handset"></span> Predictive Dialer Solutions</p>
+						<p ><span class="lnr lnr-phone-handset"></span> Call center software Integration</p>
 					</div><br><br>
 					
 					<h4> SOLUTIONS DEVELOPMENT</h4>
 					<div style="font-size: 15px; margin-left: 10px;" >
-						<p ><span class="glyphicon glyphicon-check"></span> Database Design and Administration</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Business Processes Automation</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Reporting Services</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Custom Web Applications</p>
+						<p ><span class="lnr lnr-cog"></span> Database Design and Administration</p>
+						<p ><span class="lnr lnr-cog"></span> Business Processes Automation</p>
+						<p ><span class="lnr lnr-cog"></span> Reporting Services</p>
+						<p ><span class="lnr lnr-cog"></span> Custom Web Applications</p>
 					</div>
 				</div>
 
 				<div class="col-md-4" style="margin-top: 60px; margin-left: 10px;">
 					<h4> SERVER MANAGEMENT</h4>
 					<div style="font-size: 15px; margin-left: 10px;" >
-						<p ><span class="glyphicon glyphicon-check"></span> Domain Services Management</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Planning and Deployment</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Virtualization</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Maintenance, Monitoring and Repair</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Onsite and Offsite Backup Strategies</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Load Balancing and Network Redundancy Implementation</p>
-						<p ><span class="glyphicon glyphicon-check"></span> Maintenance Schedules</p>
-						<p ><span class="glyphicon glyphicon-check"></span> IP Security Cameras and D/NVR</p>
+						<p ><span class="lnr lnr-database"></span> Domain Services Management</p>
+						<p ><span class="lnr lnr-database"></span> Planning and Deployment</p>
+						<p ><span class="lnr lnr-database"></span> Virtualization</p>
+						<p ><span class="lnr lnr-database"></span> Maintenance, Monitoring and Repair</p>
+						<p ><span class="lnr lnr-database"></span> Onsite and Offsite Backup Strategies</p>
+						<p ><span class="lnr lnr-database"></span> Load Balancing and Network Redundancy Implementation</p>
+						<p ><span class="lnr lnr-database"></span> Maintenance Schedules</p>
+						<p ><span class="lnr lnr-database"></span> IP Security Cameras and D/NVR</p>
 					</div>
 				</div>
 
@@ -407,7 +407,7 @@
 	</div>
 
 	<div id="clients" class="clients">
-		<h1 style="text-align:center;font-family:Montserrat;">OUR CLIENTS</h1>
+		<h1 style="text-align:center;font-family:Montserrat; color:#000;">OUR CLIENTS</h1>
 		<h2></h2>
 		<div id="myClientCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 		    <div class="carousel-inner">
