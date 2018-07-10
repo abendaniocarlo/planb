@@ -1,7 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+	use PHPMailer\PHPMailer\PHPMailer;
+	use PHPMailer\PHPMailer\Exception;
+
 class planb_controller extends CI_Controller {
+
+
 
 	public function __construct(){
 		parent::__construct();
@@ -15,28 +20,21 @@ class planb_controller extends CI_Controller {
 	}
 
 	public function send_message()
-	{
-		$from = "Auds <noellewaje@gmail.com>";
-		$to = "Gei geisherbernabe@gmail.com";
-		$subject = "Hi!";
-		$body = "Hi,\n\nHow are you?";
-		$host = "mail.example.com";
-		$username = "smtp_username";
-		$password = "smtp_password";
-		$headers = array ('From' => $from,
-		  'To' => $to,
-		  'Subject' => $subject);
-		$smtp = Mail::factory('smtp',
-		  array ('host' => $host,
-		    'auth' => true,
-		    'username' => $username,
-		    'password' => $password));
-		$mail = $smtp->send($to, $headers, $body);
-		if (PEAR::isError($mail)) {
-		  echo("<p>" . $mail->getMessage() . "</p>");
-		 } else {
-		  echo("<p>Message successfully sent!</p>");
-		 }
+	{	
+		ini_set('mail.add_x_header', 0);
+		require 'vendor/autoload.php';
+		$mail = new PHPMailer;
+		$mail->setFrom('geisherbernabe@gmail.com', 'Gei');
+		$mail->addAddress('noellewaje@gmail.com', 'My Friend');
+		$mail->Subject  = 'First PHPMailer Message';
+		$mail->Body     = 'Hi! This is my first e-mail sent through PHPMailer.';
+		if(!$mail->send()) {
+		  echo phpversion();
+		  echo 'Message was not sent.';
+		  echo 'Mailer error: ' . $mail->ErrorInfo;
+		} else {
+		  return redirect('planb_controller/index');
+		}
 
 		// $message = $this->input->post('message');
 		// $message = wordwrap($message, 70, "\r\n");
