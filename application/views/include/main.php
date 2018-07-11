@@ -7,6 +7,9 @@
 <body>
 	<nav>
 		<div class="wrapper">
+			<div class="menu-icon">
+				<i class="lnr lnr-menu-circle"></i>
+			</div>
 			<div class="logo"> PLAN B </div>
 			<div class="menu" id="menu">
 				<ul>
@@ -204,8 +207,7 @@
 	</div>
 	
 	<div class="products" id="products">
-		<p style="font-weight:bolder; font-family:Montserrat; text-align:center; font-size:29px; color:#000;">
-		PRODUCTS </p><br>
+		<p class="headline" style="color:#000;">PRODUCTS </p><br>
 		<h2></h2>
 	
 		<!-- <img src="<?php echo base_url('assets/img/line.png');?>"> -->
@@ -407,11 +409,11 @@
 	</div>
 
 	<div id="clients" class="clients">
-		<h1 style="text-align:center;font-family:Montserrat; color:#000;">OUR CLIENTS</h1>
+		<p  class="headline" style="color:#000; margin-top:60px;">OUR CLIENTS</p>
 		<h2></h2>
-		<div id="myClientCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+		<div id="myClientCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
 		    <div class="carousel-inner">
-		      <div class="item active" style="background-color:#FFFFFF;">
+		      <div class="item active" style="background-color:#EAEDED;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -429,7 +431,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#FFFFFF;">
+		      <div class="item" style="background-color:#EAEDED;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -447,7 +449,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#FFFFFF;">
+		      <div class="item" style="background-color:#EAEDED;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -465,7 +467,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#FFFFFF;">
+		      <div class="item" style="background-color:#EAEDED;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -483,7 +485,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#FFFFFF;">
+		      <div class="item" style="background-color:#EAEDED;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -501,7 +503,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#FFFFFF;">
+		      <div class="item" style="background-color:#EAEDED;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -519,7 +521,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#FFFFFF;">
+		      <div class="item" style="background-color:#EAEDED;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -552,7 +554,7 @@
 	<div id="workprocess" class="workprocess">
 		<div class="screen">
 		<div class="inner_workprocess">
-			<h1 style="margin-top:30px;text-align:center;font-family:Montserrat;color:#FFFFFF;">WORK PROCESS</h1>
+			<p class="headline" style="margin-top:60px; color:#fff;"> WORK PROCESS</p>
 <!-- 			<hr style="width: 200px;" />
  -->			
  			<h2></h2>
@@ -580,11 +582,11 @@
 
 	<div id="partners" class="partners">
 		<div id="" class="container">
-		<h1 style="text-align:center;font-family:Montserrat;color:#FFFFFF;">OUR PARTNERS</h1>
+		<p class="headline" style="color:#fff;"> OUR PARTNERS</p>
 <!-- 		<hr style="width: 200px;" />
  -->		
  			<h2></h2><br>
- 			<div class="row">
+ 			<div class="row" style="margin-top: 30px;">
 			  <div class="column">
 			    <img src="<?php echo base_url ('assets/img/partners1.png'); ?>" alt="" />
 			  </div>
@@ -644,7 +646,7 @@
 	<div id="contact_us" class="footer">
 		<div class="footerscreen">
 		<div class="container-fluid">
-		<h1 style="text-align:center;">CONTACT US</h1>
+		<p class="headline" style="color:#fff; margin-top:60px;">CONTACT US</p>
 <!-- 		<hr style="width: 200px;" /> -->
 		<br>
 
@@ -729,9 +731,7 @@
 			</div>
 			<br>
 		</div>
-			<div style="background-color:#4D5656;height:45px;width:100%;margin:0px;display:table;">
-				<p style="text-align:center;vertical-align: middle;display:table-cell;font-size:12px;">Copyright &copy; 2018 PLAN B &#8226; All rights reserved</p>
-			</div>
+			
 		</div>
 	</div>
 	<a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-menu-up"></span></a>
