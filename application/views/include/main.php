@@ -29,7 +29,7 @@
 	  <div class="content">
 	   	<hgroup class="intro scale">
 	      	<h1>PLAN B</h1>
-	      	<i>IT Soulutions</i>
+	      	<i>IT Solutions</i>
 	   	</hgroup>
 	  </div>
 
@@ -431,34 +431,16 @@
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client1.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c1.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client2.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c2.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client3.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c3.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client4.png'); ?>" alt="" />
-					  </div>
-					</div>
-				</div>
-		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
-		      	<div class="container">
-					<div class="row">
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client5.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client6.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client7.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client8.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c4.jpg'); ?>" alt="" />
 					  </div>
 					</div>
 				</div>
@@ -467,34 +449,16 @@
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client9.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c5.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client10.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c6.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client11.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c7.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client12.png'); ?>" alt="" />
-					  </div>
-					</div>
-				</div>
-		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
-		      	<div class="container">
-					<div class="row">
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client13.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client14.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client15.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client16.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c8.jpg'); ?>" alt="" />
 					  </div>
 					</div>
 				</div>
@@ -503,34 +467,16 @@
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client17.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c9.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client18.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c10.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client19.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c11.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client20.png'); ?>" alt="" />
-					  </div>
-					</div>
-				</div>
-		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
-		      	<div class="container">
-					<div class="row">
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client21.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client22.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client23.png'); ?>" alt="" />
-					  </div>
-					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client24.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c12.jpg'); ?>" alt="" />
 					  </div>
 					</div>
 				</div>
@@ -539,26 +485,80 @@
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client25.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c13.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client26.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c14.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client27.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c15.jpg'); ?>" alt="" />
 					  </div>
 					  <div class="column">
-					    <img src="<?php echo base_url ('assets/img/client28.png'); ?>" alt="" />
+					    <img src="<?php echo base_url ('assets/img/c16.jpg'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#EAEDED;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c17.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c18.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c19.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c20.jpg'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#EAEDED;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c21.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c22.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c23.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c24.jpg'); ?>" alt="" />
+					  </div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item" style="background-color:#EAEDED;">
+		      	<div class="container">
+					<div class="row">
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c25.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column">
+					    <img src="<?php echo base_url ('assets/img/c26.jpg'); ?>" alt="" />
+					  </div>
+					  <div class="column" style="opacity: 0;">
+					    <!-- <img src="<?php echo base_url ('assets/img/client27.png'); ?>" alt="" /> -->
+					  </div>
+					  <div class="column" style="opacity: 0;">
+					    <!-- <img src="<?php echo base_url ('assets/img/client28.png'); ?>" alt="" /> -->
 					  </div>
 					</div>
 				</div>
 		      </div>
 		    </div>
-		    <a class="left carousel-control" href="#myClientCarousel" data-slide="prev" style="display:none;">
+		    <a class="left carousel-control" href="#myClientCarousel" data-slide="prev" style="opacity:0;">
 		      <span class="glyphicon glyphicon-chevron-left"></span>
 		      <span class="sr-only">Previous</span>
 		    </a>
-		    <a class="right carousel-control" href="#myClientCarousel" data-slide="next" style="display:none;">
+		    <a class="right carousel-control" href="#myClientCarousel" data-slide="next" style="opacity:0;">
 		      <span class="glyphicon glyphicon-chevron-right"></span>
 		      <span class="sr-only">Next</span>
 		    </a>
@@ -596,11 +596,9 @@
 
 	<div id="partners" class="partners">
 		<div id="" class="container">
-		<p class="headline" style="color:#fff;"> OUR PARTNERS</p>
-<!-- 		<hr style="width: 200px;" />
- -->		
+		<p class="headline" style="color:#000000;"> OUR PARTNERS</p>	
  			<h2></h2><br>
- 			<div class="row" style="margin-top: 30px;">
+ 			<div class="row" style="margin-top: 0px;">
 			  <div class="column">
 			    <img src="<?php echo base_url ('assets/img/partners1.png'); ?>" alt="" />
 			  </div>
@@ -645,15 +643,14 @@
 			  </div>
 			</div>
 			<div class="row">
+			  <div class="column" style="flex:16.665%"></div>
 			  <div class="column">
 			    <img src="<?php echo base_url ('assets/img/partners13.png'); ?>" alt="" />
 			  </div>
 			  <div class="column">
 			    <img src="<?php echo base_url ('assets/img/partners14.png'); ?>" alt="" />
 			  </div>
-			  <div class="column">
-			    <img src="<?php echo base_url ('assets/img/partners15.png'); ?>" alt="" />
-			  </div>
+			  <div class="column" style="flex:16.665%"></div>
 			</div>
 		</div>
 	</div>
@@ -683,8 +680,8 @@
 		<br>
 
 		<h2></h2>
-			<div class="row" style="margin:0px 50px 30px 50px;">
-				<div class=" col-lg-4 col-md-4 col-sm-12">
+			<div class="row" style="margin-bottom:30px; padding-left:6.5%;">
+				<div class="contact col-lg-4 col-md-4 col-sm-12">
 					<div style="width:100%;height:100px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;border-radius:10px ">
 						<h1 style="margin:0px;">PLAN B LOGO HERE</h1>
 					</div>
@@ -692,7 +689,7 @@
 					<p class="contactdetails"><span class="glyphicon glyphicon-envelope"></span> email@address.com</p>
 					<p class="contactdetails"><span class="glyphicon glyphicon-map-marker"></span> location</p>
 					<p></p>
-					<table style="margin-top:20px;">
+					<table style="margin-top:30px;">
 						<tr>
 							<th>
 								<a href="#" id="fb_link">
@@ -726,12 +723,12 @@
 					<p class="contactdetails">loremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p> -->
 				</div>
-				<div class=" col-lg-4 col-md-4 col-sm-12">
+				<div class="contact  col-lg-4 col-md-4 col-sm-12" style="margin: 0px 10px">
 					<p style="font-size: 15px;margin-top:0px;">Let us know how we can solve your business problem.</p>
 					<br>
 					<!-- <p style="font-size:12px;font-style:italic;margin-bottom:0;">* required</p> -->
 					<!-- <form action="#" class="footer-form"> -->
-					<?php  echo form_open('planb_controller/send_message', ['class'=>'form-horizontal','id'=>'sendmessage']); ?>
+					<?php  echo form_open('planb_controller/send_message', ['class'=>'form-horizontal footer-form','id'=>'sendmessage']); ?>
 					 	<div class="form-group">
 							<?php echo form_input(['name'=>'name','class'=>'form-control','id'=>'Name','placeholder'=>'Name*', 'value'=>set_value('name')]); ?>
 							<?php echo '<h5 class="pulse animated" style="color: red;
@@ -753,14 +750,14 @@
 					 <?php form_close();?>
 				</div>
 
-				<div class=" col-lg-4 col-md-4 col-sm-12">
+				<div class="contact  col-lg-4 col-md-4 col-sm-12">
 					<h3 style="margin-top: 0;">Newsletter</h3>
 					<p style="font-size:14px;font-style:italic;">Signup for our weekly newsletter and get the latest updates</p>
 					<br>
 					<form action="#" class="footer-form">
 					    <div class="form-group">
 					      <!-- <label for="email">Email:</label> -->
-					      <input type="email" class="form-control" id="email" placeholder="Enter your Email" name="subemail">
+					      <input type="email" class="form-control subemail" id="email" placeholder="Enter your Email" name="subemail">
 					    </div>
 					    <button type="submit" class="btn btn-primary">Submit</button>
 					  </form>
