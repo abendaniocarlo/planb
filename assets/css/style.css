@@ -414,14 +414,16 @@ hr{
 }
 
 #partners h2::before {
-    background: #fff;
+    background: #000000;
     content: '';
     width: 75px;
     height: 6px;  
     position: absolute;
-    bottom: 670px;
-    left: 50%;
-    margin-left: -40px;
+    /*float: center;*/
+    bottom: 1140px/*670px*/;
+    left: 47%;
+
+    /*margin-left: -40px;*/
 }
 
 #contact_us h2::before {
@@ -430,7 +432,7 @@ hr{
     width: 75px;
     height: 6px;  
     position: absolute;
-    bottom: -5180px;
+    bottom: -6745px;
     left: 50%;
     margin-left: -40px;
 }
@@ -690,6 +692,8 @@ hr{
     margin: 0px 5px;
 }
 .clients  .container > .row > .column > img{
+    margin:auto;
+    width: 258px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     transition: all 0.2s ease-in-out;
@@ -706,24 +710,24 @@ hr{
 
 /******** PARTNERS SECTION *********/
 .partners{
-  background-color: #4D5656;
+  background-color:  #EAEDED;
   padding: 100px 0px 80px 0px;
   position: relative;
 }
 .partners > .container > .row {
     display: flex;
-    margin: 0px auto 20px;
+    margin: 0px auto 0px;
 }
 .partners > .container > .row >.column {
     flex: 33.33%;
-    padding: 5px auto;
     position: relative;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 .partners > .container > .row > .column > img{
-  width: 350px;
+  width: 90%;
+  margin: auto;
 }
 .partners > .container > .row > .toShow{
   opacity: 1;
@@ -740,30 +744,58 @@ hr{
   width:100%;
 }
 .footer > .footerscreen{
-  background-color: rgba(0,0,0,0.4);  
+  background-color: rgba(0,0,0,0.9);  
   height: 600px;
-  padding-top: 40px;}
-.footer .contactdetails{
-  font-size: 14px;
-  margin-left: 5px;
+  padding-top: 40px;
 }
-.footer-form >.form-group > input[type="name"]{
-  color: #000000;
+.footer .contactdetails{
+  font-size: 15px;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.footer .contactdetails > span{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.footer-form >.form-group > input[type="text"]{
+  color: #FFFFFF;
   border: none;
   border-radius: 0px;
+  width: 100%;
+  background: rgba(255,255,255,0.3);
+  /*border: 0.1px solid white;*/
 }
 .footer-form >.form-group > input[type="email"]{
-  color: #000000;
+  color: #FFFFFF;
   border: none;
   border-radius: 0px;
+  width: 100%;
+  background: rgba(255,255,255,0.3);
+  /*border: 0.1px solid white;*/
+}
+.subemail{
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0px;
+  width: 100%;
+  background: rgba(255,255,255,0.3);
 }
 .footer-form >.form-group > textarea{
   color: #000000;
   border: none;
   border-radius: 0px;
 }
-.meme{
-  position: absolute;
+.subemail::placeholder,
+.footer-form >.form-group > input[type="text"]::placeholder,
+.footer-form >.form-group > input[type="email"]::placeholder {
+    color: white;
+}
+.contact{
+  height: 400px;
+  width: 30%;
+  padding: 35px;
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
 }
 /******** END OF CONTACT US/FOOTER SECTION *********/
 
