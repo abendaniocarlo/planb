@@ -17,6 +17,7 @@ class planb_controller extends CI_Controller {
 		$header_data['title']="Plan B";
 		$this->load->view('include/header',$header_data);
 		$this->load->view('include/main');
+		$this->load->view('include/footer');
 	}
 
 	public function send_message(){
