@@ -39,7 +39,7 @@
 	<div class="container-fluid about" id="about">
 		<div class="col-md-6 col-lg-4 col-sm-12">
 			<!-- <div class="box"> -->
-				<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+				<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;" data-aos="flip-left">
 					HISTORY <br>
 					<img src="<?php echo base_url('assets/img/linedeco.png');?>">
 					<p style="margin-top: 23px; font-family: Raleway;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -49,7 +49,7 @@
 
 		<div class="col-md-6 col-lg-4 col-sm-12">
 			<!-- <div class="box"> -->
-				<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+				<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;" data-aos="zoom-in-up">
 					OUR MISSION <br>
 					<img src="<?php echo base_url('assets/img/linedeco.png');?>">
 					<p style="margin-top: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -59,7 +59,7 @@
 
 		<div class="col-md-6 col-lg-4 col-sm-12">
 			<!-- <div class="box">
- -->			<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+ -->			<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;" data-aos="flip-right">
 					OUR STRATEGY <br>
 					<img src="<?php echo base_url('assets/img/linedeco.png');?>">
 					<p style="margin-top: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -68,24 +68,74 @@
 		</div>
 	</div>
 
-	<div class="services" id="services">
+	<div class="services" id="services" >
 		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-			<!-- <ol class="carousel-indicators">
+			<ol class="carousel-indicators">
 				<li data-target="myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="myCarousel" data-slide-to="1"></li>
 				<li data-target="myCarousel" data-slide-to="2"></li>
-			</ol> -->
+				<li data-target="myCarousel" data-slide-to="3"></li>
+				<li data-target="myCarousel" data-slide-to="4"></li>
+			</ol>
 
-			<div class="carousel-inner">
+			<div class="carousel-inner ci">
+				<p style="font-weight: bolder; text-align: center; font-family: Montserrat; font-size: 28px; color: #fff; ">
+				WE OFFER & DEVELOP</p>
+				
 
 				<div class="item active">
-				  <div style="text-align: center; font-size: 29px;">
-				    	<p style="font-weight: bolder; font-family: Montserrat;">WHAT WE OFFER</p><br>
+						
+				  <div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+				  	IT programs, including Accounting, CRM, Data mining system, POS, Human resource Management, Medical and other small and medium business software, to provide our customer with expert service.
+				  </div>
+				</div>
+
+				<div class="item">
+				  	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+				  	Facilities and Network Services include from Planning, Structured Cabling, Electrical System, Electronic Security System (Door access and CCTV products) and Telephony Systems.
+				  </div>
+				</div>
+				    
+				<div class="item">
+				   	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+				  	Workstation and server maintenance, full helpdesk, network support remote and in-house as well. As required or at a fixed cost as part of our Managed Services.
+				  </div>
+				</div>
+
+				<div class="item">
+				  	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+				  	Ongoing IT support and advice to assist in the success and productivity of your business.
+				  </div>
+				</div>
+				    
+				<div class="item">
+				   	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+				  	Mobile apps for IOS, Android and Windows.
+				  </div>
+				</div>
+
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+		</div>		
+	</div>
+
+	<div class="container-fluid s1">
+		<div style="text-align: center; font-size: 29px;">
+				    	<p style="font-weight: bolder; font-family: Montserrat;">
+				    	WHAT WE OFFER</p><br>
 				    	<!-- <p style="font-style: italic; font-size: 20px; color: #fff;">
 				    	we offer our customers the best services & solutions, this is our main services list
 				    	</p> -->
 				    	<h2></h2>
-				    	<div class="col-lg-12" style="margin-left: 13%;">
+				    	<div class="col-lg-12 s1body">
 					    	<div class="col-lg-3 offers">
 					    		<img src="<?php echo base_url('assets/img/o1.png');?>"><br>
 					    		<h4>HARDWARE</h4>
@@ -103,7 +153,7 @@
 					    		<h4>MOBILE APPLICATION</h4>
 					    	</div>
 					    </div>
-					    <div class="col-lg-12" style="margin-left: 13%;">
+					    <div class="col-lg-12 s1body" >
 					    	<div class="col-lg-3 offers">
 					    		<img src="<?php echo base_url('assets/img/o5.png');?>"><br>
 					    		<h4>WEB APPLICATION</h4>
@@ -121,7 +171,7 @@
 					    		<h4>SERVICE MAINTENANCE</h4>
 					    	</div>
 					    </div>
-					    <div class="col-lg-12" style="margin-left: 13%;">
+					    <div class="col-lg-12 s1body" >
 					    	<div class="col-lg-3 offers" style="border-bottom: 0px;">
 					    		<img src="<?php echo base_url('assets/img/o9.png');?>"><br>
 					    		<h4>WEBSITE</h4>
@@ -140,16 +190,19 @@
 					    	</div>
 					    </div>
 				  </div>
-				</div>
+	</div>
 
-				<div class="item">
-				  	<div style="text-align: center; font-size: 28px; font-family: Montserrat;">
-				    	<p style="font-weight: bolder;">MULTI PLATFORMS FOR SOFTWARE DEVELOPMENT</p>
-				    	<!-- <p style="font-style: italic; font-size: 20px; color: #fff;">
-				    	.NET, C++, C#, PHP, JAVA, etc..
-				    	</p> -->
-				    	<h2></h2>
-				    	<div class="col-lg-12 platforms">
+	
+	<div class="multi">
+		<div class="blackoverlay2" data-aos="fade-right">
+			<div class="title2">
+				MULTI PLATFORMS 
+				<p style="font-size: 32px; color: #fff;">FOR SOFTWARE <br>DEVELOPMENT</p>
+			</div>
+		</div>
+
+		<div class="banner2" data-aos="fade-left">
+				<div class="col-lg-12 platforms">
 				    		<img src="<?php echo base_url('assets/img/s1_2.png');?>" 
 				    		onmouseover="this.src='assets/img/s1new.png'" onmouseout="this.src='assets/img/s1_2.png'">
 				    		<img src="<?php echo base_url('assets/img/s2_2.png');?>"
@@ -162,49 +215,10 @@
 				    		onmouseover="this.src='assets/img/s5new.png'" onmouseout="this.src='assets/img/s5_2.png'">
 				    		<img src="<?php echo base_url('assets/img/s6_2.png');?>"
 				    		onmouseover="this.src='assets/img/s6new.png'" onmouseout="this.src='assets/img/s6_2.png'">
-				    	</div>
-				  </div>
 				</div>
-				    
-				<div class="item">
-				   	<div style="font-size: 28px;">
-				    	<p style="font-weight: bolder; text-align: center; font-family: Montserrat;">WE OFFER & DEVELOP</p>
-				    	<!-- <p style="font-style: italic; font-size: 20px; color: #fff; text-align: center;">
-				    		Just tell us what you need and chances are we already have the technology fit for it.
-				    	</p> -->
-				    	<h2></h2>
-				    	<ul style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;"> <br>
-				    		<li> 
-				    			IT programs, including Accounting, CRM, Data mining system, POS, Human resource Management, Medical and other small and medium business software, to provide our customer with expert service.
-				    		</li><br>
-				    		<li>
-				    			Facilities and Network Services include from Planning, Structured Cabling, Electrical System, Electronic Security System (Door access and CCTV products) and Telephony Systems.
-				    		</li><br>
-				    		<li>
-				    			Workstation and server maintenance, full helpdesk, network support remote and in-house as well. As required or at a fixed cost as part of our Managed Services.
-				    		</li><br>
-				    		<li>
-				    			Ongoing IT support and advice to assist in the success and productivity of your business.
-				    		</li><br>
-				    		<li>
-				    			Mobile apps for IOS, Android and Windows.
-				    		</li>
-				    	</ul>
-				  </div>
-				</div>
-
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-
-		</div>		
+		</div>
 	</div>
+
 	
 	<div class="products" id="products">
 		<p class="headline" style="color:#000;">PRODUCTS </p><br>
@@ -350,22 +364,23 @@
 	</div>
 
 	<div class="expertise">
-		<div class="blackoverlay">
+		<div class="blackoverlay" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
 			<div class="title">
 				OTHER AREAS OF
 				<p style="font-size: 41px; color: #fff;">EXPERTISE</p>
 			</div>
-			<div class="banner">
+		</div>
+		<div class="banner" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 				<div class="col-md-3" style="margin-top: 60px; margin-left: 20px;">
-					<h4> CLOUD SERVICES</h4>
-					<div style="font-size: 15px; margin-left: 10px;" >
+					<h4 style="font-family: Montserrat;"> CLOUD SERVICES</h4>
+					<div style="font-size: 15px; margin-left: 10px; font-family: Raleway;" >
 						<p ><span class="lnr lnr-cloud"></span> Server and Infrastructure</p>
 						<p ><span class="lnr lnr-cloud"></span> Backup Solutions</p>
 						<p ><span class="lnr lnr-cloud"></span> Hosted Applications</p>
 					</div><br><br>
 					
-					<h4> NETWORK</h4>
-					<div style="font-size: 15px; margin-left: 10px;" >
+					<h4 style="font-family: Montserrat;"> NETWORK</h4>
+					<div style="font-size: 15px; margin-left: 10px; font-family: Raleway;" >
 						<p ><span class="lnr lnr-earth"></span> Network Design and Configuration</p>
 						<p ><span class="lnr lnr-earth"></span> Drafting and Documentation</p>
 						<p ><span class="lnr lnr-earth"></span> VPN Tunneling</p>
@@ -374,15 +389,15 @@
 				</div>
 
 				<div class="col-md-4" style="margin-top: 60px; margin-left: 10px;">
-					<h4> TELECOMMUNICATIONS</h4>
-					<div style="font-size: 15px; margin-left: 10px;" >
+					<h4 style="font-family: Montserrat;"> TELECOMMUNICATIONS</h4>
+					<div style="font-size: 15px; margin-left: 10px; font-family: Raleway;" >
 						<p ><span class="lnr lnr-phone-handset"></span> IP and Digital Telephony Systems</p>
 						<p ><span class="lnr lnr-phone-handset"></span> Predictive Dialer Solutions</p>
 						<p ><span class="lnr lnr-phone-handset"></span> Call center software Integration</p>
 					</div><br><br>
 					
-					<h4> SOLUTIONS DEVELOPMENT</h4>
-					<div style="font-size: 15px; margin-left: 10px;" >
+					<h4 style="font-family: Montserrat;"> SOLUTIONS DEVELOPMENT</h4>
+					<div style="font-size: 15px; margin-left: 10px; font-family: Raleway;" >
 						<p ><span class="lnr lnr-cog"></span> Database Design and Administration</p>
 						<p ><span class="lnr lnr-cog"></span> Business Processes Automation</p>
 						<p ><span class="lnr lnr-cog"></span> Reporting Services</p>
@@ -391,8 +406,8 @@
 				</div>
 
 				<div class="col-md-4" style="margin-top: 60px; margin-left: 10px;">
-					<h4> SERVER MANAGEMENT</h4>
-					<div style="font-size: 15px; margin-left: 10px;" >
+					<h4 style="font-family: Montserrat;"> SERVER MANAGEMENT</h4>
+					<div style="font-size: 15px; margin-left: 10px; font-family: Raleway;" >
 						<p ><span class="lnr lnr-database"></span> Domain Services Management</p>
 						<p ><span class="lnr lnr-database"></span> Planning and Deployment</p>
 						<p ><span class="lnr lnr-database"></span> Virtualization</p>
@@ -405,7 +420,6 @@
 				</div>
 
 			</div>
-		</div>
 	</div>
 
 	<div id="clients" class="clients">
@@ -760,10 +774,6 @@
 	<a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-menu-up"></span></a>
 
 <script type="text/javascript">
-	// $("#sendmessage").submit(function(e) {
-    	
-	// });	
-
 	$(window).scroll(function(){
 		var wScroll = $(this).scrollTop();
 
