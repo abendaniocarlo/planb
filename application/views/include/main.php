@@ -646,7 +646,25 @@
 	<div id="contact_us" class="footer">
 		<div class="footerscreen">
 		<div class="container-fluid">
-		<p class="headline" style="color:#fff; margin-top:60px;">CONTACT US</p>
+
+
+		<?php if( $error = $this->session->flashdata('responsed')): ?>
+							<div class="alert alert-dismissable alert-danger col col-md-6">
+<!-- 								<a href="<?php echo site_url('planb_controller'); ?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+ -->								<i class="fa fa-window-close-o" aria-hidden="true"></i><?php echo $error; ?>
+							</div>
+							<br /><br /><br /><br />
+		<?php endif; ?>
+		<?php if( $error = $this->session->flashdata('response')): ?>
+							<div class="alert alert-dismissable alert-success col col-md-6">
+<!-- 								<a href="<?php echo site_url('planb_controller'); ?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+ -->								<i class="fa fa-window-close-o" aria-hidden="true"></i><?php echo $error; ?>
+							</div>
+							<br /><br /><br /><br />
+		<?php endif; ?>
+
+		<h1 style="text-align:center;">CONTACT US</h1>
+
 <!-- 		<hr style="width: 200px;" /> -->
 		<br>
 
@@ -700,18 +718,23 @@
 					<!-- <p style="font-size:12px;font-style:italic;margin-bottom:0;">* required</p> -->
 					<!-- <form action="#" class="footer-form"> -->
 					<?php  echo form_open('planb_controller/send_message', ['class'=>'form-horizontal','id'=>'sendmessage']); ?>
-					    <div class="form-group">
-					      <!-- <label for="Name">Name:</label> -->
-					      <input type="name" class="form-control" id="Name" placeholder="Name*" name="naveme">
-					    </div>
-					    <div class="form-group">
-					      <!-- <label for="email">Email:</label> -->
-					      <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
-					    </div>
-					    <div class="form-group">
-						  <!-- <label for="message">Comment:</label> -->
-						  <textarea class="form-control" rows="4" id="message" placeholder="Message*"></textarea>
-						</div>
+					 	<div class="form-group">
+							<?php echo form_input(['name'=>'name','class'=>'form-control','id'=>'Name','placeholder'=>'Name*', 'value'=>set_value('name')]); ?>
+							<?php echo '<h5 class="pulse animated" style="color: red;
+							"><strong>'.form_error('name').'</strong></h5>'; ?>
+						</div>   
+
+						<div class="form-group">
+							<?php echo form_input(['name'=>'email','type'=>'email','class'=>'form-control','id'=>'Email','placeholder'=>'Email*', 'value'=>set_value('email')]); ?>
+							<?php echo '<h5 class="pulse animated" style="color: red;
+							"><strong>'.form_error('email').'</strong></h5>'; ?>
+						</div>   
+
+						<div class="form-group">
+							<?php echo form_input(['name'=>'message','class'=>'form-control','rows'=>'4','id'=>'Message','placeholder'=>'Message*', 'value'=>set_value('message')]); ?>
+							<?php echo '<h5 class="pulse animated" style="color: red;
+							"><strong>'.form_error('message').'</strong></h5>'; ?>
+						</div> 
 					    <button type="submit" class="btn btn-primary btn-block">Send message</button>
 					 <?php form_close();?>
 				</div>
@@ -723,7 +746,7 @@
 					<form action="#" class="footer-form">
 					    <div class="form-group">
 					      <!-- <label for="email">Email:</label> -->
-					      <input type="email" class="form-control" id="email" placeholder="Enter your Email" name="email">
+					      <input type="email" class="form-control" id="email" placeholder="Enter your Email" name="subemail">
 					    </div>
 					    <button type="submit" class="btn btn-primary">Submit</button>
 					  </form>
@@ -737,6 +760,10 @@
 	<a href="#" id="back-to-top" title="Back to top"><span class="glyphicon glyphicon-menu-up"></span></a>
 
 <script type="text/javascript">
+	// $("#sendmessage").submit(function(e) {
+    	
+	// });	
+
 	$(window).scroll(function(){
 		var wScroll = $(this).scrollTop();
 
