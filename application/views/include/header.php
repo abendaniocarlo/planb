@@ -15,6 +15,11 @@
 	<script src="<?php echo base_url ('assets/dist/aos.js'); ?>"></script>
 	<script src="<?php echo base_url ('assets/js/fadeInfadeOut.js'); ?>"></script>
 	<script src="<?php echo base_url ('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
+
+	<script type="text/javascript">
+		AOS.init();
+	</script>
+
 	<script type="text/javascript">
 		//Menu button
 		$(document).ready(function(){
@@ -54,7 +59,9 @@
 	</script>
 
 	<script type="text/javascript">
-		AOS.init();
+		$(document).on("click", ".flip-container", function () {
+		    $(this).toggleClass('next');
+		});
 	</script>
 
 </body>
