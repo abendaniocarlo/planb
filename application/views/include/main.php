@@ -26,46 +26,64 @@
 	</nav>
 
 	<header id="home">
-	  <div class="content">
-	   	<hgroup class="intro scale">
-	      	<h1>PLAN B</h1>
-	      	<i>IT Solutions</i>
-	   	</hgroup>
-	  </div>
+		<section class="cd-intro">
+			<div class="cd-intro-content mask-2">
+				<div class="content-wrapper">
+					<div>
+						<img src="assets/img/planB.svg">
+					</div>
+				</div>
+			</div>
+		</section>
 
 	  <div class="overlay"></div>
 	</header>
 
 	<div class="container-fluid about" id="about">
-		<div class="col-md-6 col-lg-4 col-sm-12">
+	<div class="row">
+		<div class="col-lg-6 col-md-12 col-sm-12">
 			<!-- <div class="box"> -->
-				<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;" data-aos="flip-left">
-					HISTORY <br>
-					<img src="<?php echo base_url('assets/img/linedeco.png');?>">
-					<p style="margin-top: 23px; font-family: Raleway;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="flip-container"  ontouchstart="this.classList.toggle('next');">
+				<div class="flipper">
+					<div class="box2 front" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+						OUR HISTORY <br>
+						<!-- <img src="<?php echo base_url('assets/img/linedeco.png');?>"> -->
+						<hr></hr>
+						<p style="margin-top: 23px; font-family: Raleway;">Started as a technology support division of LRA Pacific Group®, the local partner of Smartmatic® for the first Philippine National Computerized Election in 2010 National technical support center, then on 2013 and 2016 including the field technical support for the vote counting machines on the entire Luzon area,
+						<br /><br />
+						From there the division evolved as technology provider for LRA Pacific Group client’s on facilities for the growing demands of BPO. From Planning, Data Center, Networking, Structured cabling, Software Engineering and system integration. As a technology outsourcing company with competitive expertise in software development and integration. Together as part of LRA Pacific, that has the expertise of providing clients from processing bare space up to live operations according to client’s specification.
+						<a class="read-more"> READ MORE</a>
+						</p>
+					</div>
+
+					<div class="box2 back" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+						
+						<p style="margin-top: 23px; font-family: Raleway;"> We do not just provide solutions, we also maintain and keep our clients systems updated to technology.  
+						<br /><br />
+
+						Together with our long standing technology partner from the core team of KabSlash IT® Inc., diversity brought us to cater from beyond LRA Group’s long list of clients and further exposed beyond BPO. Our expertise includes providing solutions for businesses of different industries from small, medium and enterprise. e-commerce, Social Networking breed systems, Delivery and logistics, Warehouse Management, Hospitality to name a few. We develop and integrate systems from popular platforms such as Microsoft, Oracle and cost-effective open source solutions.<br /><br />
+
+						As competition on technology vies, businesses usually caught up on limitations and cost strain that had to adjust to providers. That’s where we come in, because there’s always PLAN B. <br /><br />
+						</p>
+					</div>
 				</div>
-			<!-- </div> -->
+			</div>			
 		</div>
 
-		<div class="col-md-6 col-lg-4 col-sm-12">
-			<!-- <div class="box"> -->
-				<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;" data-aos="zoom-in-up">
-					OUR MISSION <br>
-					<img src="<?php echo base_url('assets/img/linedeco.png');?>">
-					<p style="margin-top: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				</div>
-			<!-- </div> -->
-		</div>
 
-		<div class="col-md-6 col-lg-4 col-sm-12">
+		<div class="col-lg-6 col-md-12 col-sm-12">
 			<!-- <div class="box">
- -->			<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;" data-aos="flip-right">
-					OUR STRATEGY <br>
-					<img src="<?php echo base_url('assets/img/linedeco.png');?>">
-					<p style="margin-top: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ -->			<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+					THE BIG DIFFERENCE <br />
+					<!-- <img src="<?php echo base_url('assets/img/linedeco.png');?>"> -->
+					<hr></hr>
+					<p style="margin-top: 25px;">There are tons of cloud applications provider… it’s been here for a while, cheap, maintenance free and slim or no chance of downtime. E-commerce, CRM, HRIS, Warehouse and Logistics management, etc. some even offer free for a minimum number of users. Cool? Nah! Maybe you should ask yourselves. Are you sure your data is yours? Think again, it’s in the cloud. “Their” property”. And oh by the way, that data privacy issues that I hate to contest unless it’s on my safekeeping.
+					<br /><br />
+					So what’s the plan if cloud apps that have been offered have no data privacy at all? Go for Plan B. All our products are also web based, the only difference is it’s your property, your terms, your security and definitely YOUR database on your choice of “Private” web server. You paid for it so It’s all yours.</p>
 				</div>
 			<!-- </div> -->
 		</div>
+	</div>
 	</div>
 
 	<div class="services" id="services" >
@@ -80,12 +98,13 @@
 
 			<div class="carousel-inner ci">
 				<p style="font-weight: bolder; text-align: center; font-family: Montserrat; font-size: 28px; color: #fff; ">
-				WE OFFER & DEVELOP</p>
+				WE OFFER & DEVELOP</p><br />
+				<h2></h2>
 				
 
 				<div class="item active">
 						
-				  <div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+				  <div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%; font-family: Raleway;">
 				  	IT programs, including Accounting, CRM, Data mining system, POS, Human resource Management, Medical and other small and medium business software, to provide our customer with expert service.
 				  </div>
 				</div>
@@ -114,14 +133,14 @@
 				  </div>
 				</div>
 
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
 				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
-				</a>
+				</a> -->
 			</div>
 
 		</div>		
@@ -129,7 +148,7 @@
 
 	<div class="container-fluid s1">
 		<div style="text-align: center; font-size: 29px;">
-				    	<p style="font-weight: bolder; font-family: Montserrat;">
+				    	<p style="font-weight: bolder; font-family: Montserrat; color: #063e47;">
 				    	WHAT WE OFFER</p><br>
 				    	<!-- <p style="font-style: italic; font-size: 20px; color: #fff;">
 				    	we offer our customers the best services & solutions, this is our main services list
@@ -221,7 +240,7 @@
 
 	
 	<div class="products" id="products">
-		<p class="headline" style="color:#000;">PRODUCTS </p><br>
+		<p class="headline" style="color:#063e47;">PRODUCTS </p><br>
 		<h2></h2>
 	
 		<!-- <img src="<?php echo base_url('assets/img/line.png');?>"> -->
@@ -364,13 +383,13 @@
 	</div>
 
 	<div class="expertise">
-		<div class="blackoverlay" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+		<div class="blackoverlay" data-aos="fade-right" >
 			<div class="title">
 				OTHER AREAS OF
 				<p style="font-size: 41px; color: #fff;">EXPERTISE</p>
 			</div>
 		</div>
-		<div class="banner" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+		<div class="banner" data-aos="fade-left" >
 				<div class="col-md-3" style="margin-top: 60px; margin-left: 20px;">
 					<h4 style="font-family: Montserrat;"> CLOUD SERVICES</h4>
 					<div style="font-size: 15px; margin-left: 10px; font-family: Raleway;" >
@@ -423,11 +442,11 @@
 	</div>
 
 	<div id="clients" class="clients">
-		<p  class="headline" style="color:#000; margin-top:60px;">OUR CLIENTS</p>
+		<p  class="headline" style="color:#063e47; margin-top:60px;">OUR CLIENTS</p>
 		<h2></h2>
 		<div id="myClientCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
 		    <div class="carousel-inner">
-		      <div class="item active" style="background-color:#EAEDED;">
+		      <div class="item active" style="background-color:#F4E7C4;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -445,7 +464,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
+		      <div class="item" style="background-color:#F4E7C4;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -463,7 +482,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
+		      <div class="item" style="background-color:#F4E7C4;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -481,7 +500,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
+		      <div class="item" style="background-color:#F4E7C4;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -499,7 +518,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
+		      <div class="item" style="background-color:#F4E7C4;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -517,7 +536,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
+		      <div class="item" style="background-color:#F4E7C4;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -535,7 +554,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#EAEDED;">
+		      <div class="item" style="background-color:#F4E7C4;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -596,7 +615,7 @@
 
 	<div id="partners" class="partners">
 		<div id="" class="container">
-		<p class="headline" style="color:#000000;"> OUR PARTNERS</p>	
+		<p class="headline" style="color:#063e47;"> OUR PARTNERS</p>	
  			<h2></h2><br>
  			<div class="row" style="margin-top: 0px;">
 			  <div class="column">
@@ -659,20 +678,20 @@
 		<div class="container-fluid">
 
 
-		<?php if( $error = $this->session->flashdata('responsed')): ?>
-							<div class="alert alert-dismissable alert-danger col col-md-6">
-<!-- 								<a href="<?php echo site_url('planb_controller'); ?>" class="close" data-dismiss="alert" aria-label="close">×</a>
- -->								<i class="fa fa-window-close-o" aria-hidden="true"></i><?php echo $error; ?>
+		<!-- <?php if( $error = $this->session->flashdata('responsed')): ?>
+							<div class="alert alert-dismissable alert-danger col col-xs-12">
+								<a href="<?php echo site_url('planb_controller'); ?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+								<i class="fa fa-window-close-o" aria-hidden="true"></i><?php echo $error; ?>
 							</div>
 							<br /><br /><br /><br />
 		<?php endif; ?>
 		<?php if( $error = $this->session->flashdata('response')): ?>
 							<div class="alert alert-dismissable alert-success col col-md-6">
-<!-- 								<a href="<?php echo site_url('planb_controller'); ?>" class="close" data-dismiss="alert" aria-label="close">×</a>
- -->								<i class="fa fa-window-close-o" aria-hidden="true"></i><?php echo $error; ?>
+								<a href="<?php echo site_url('planb_controller'); ?>" class="close" data-dismiss="alert" aria-label="close">×</a>
+								<i class="fa fa-window-close-o" aria-hidden="true"></i><?php echo $error; ?>
 							</div>
 							<br /><br /><br /><br />
-		<?php endif; ?>
+		<?php endif; ?> -->
 
 		<h1 style="text-align:center;">CONTACT US</h1>
 
@@ -682,9 +701,7 @@
 		<h2></h2>
 			<div class="row" style="margin-bottom:30px; padding-left:6.5%;">
 				<div class="contact col-lg-4 col-md-4 col-sm-12">
-					<div style="width:100%;height:100px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;border-radius:10px ">
-						<h1 style="margin:0px;">PLAN B LOGO HERE</h1>
-					</div>
+					<img src="assets/img/planB.svg">
 					<p class="contactdetails"><span class="glyphicon glyphicon-earphone"></span> (632) 123-1234</p>
 					<p class="contactdetails"><span class="glyphicon glyphicon-envelope"></span> email@address.com</p>
 					<p class="contactdetails"><span class="glyphicon glyphicon-map-marker"></span> location</p>
