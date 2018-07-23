@@ -47,7 +47,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/ios.png');?>">
 				</div>
 				<p> iOS</p>
 			</div>
@@ -56,12 +56,11 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/android.png');?>">
 				</div>
 				<p>ANDROID</p>
 			</div>
 		</div>
-
 		
 	</div>
 
