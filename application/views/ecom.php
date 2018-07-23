@@ -47,7 +47,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/celebritifyme.png');?>">
 				</div>
 				<p> CELEBRITIFY.ME</p>
 			</div>
@@ -56,7 +56,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/website.png');?>">
 				</div>
 				<p> WEBSITE</p>
 			</div>
@@ -65,7 +65,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/warehouse.png');?>">
 				</div>
 				<p> LEASE-RENT-ACQUIRE KIT</p>
 			</div>
@@ -74,7 +74,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/online-shopping.png');?>">
 				</div>
 				<p> ONLINE SHOPPING</p>
 			</div>

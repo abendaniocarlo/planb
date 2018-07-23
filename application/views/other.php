@@ -47,7 +47,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/it solutions.png');?>">
 				</div>
 				<p> IT SOLUTION</p>
 			</div>
@@ -56,7 +56,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/floor layout.png');?>">
 				</div>
 				<p> FLOOR LAYOUT</p>
 			</div>
@@ -65,7 +65,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/technical support.png');?>">
 				</div>
 				<p> F1 TECH SUPPORT</p>
 			</div>

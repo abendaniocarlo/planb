@@ -47,7 +47,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/server (1).png');?>">
 				</div>
 				<p> SERVERS</p>
 			</div>
@@ -56,7 +56,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/desktop.png');?>">
 				</div>
 				<p> DESKTOP</p>
 			</div>
@@ -65,7 +65,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/laptop.png');?>">
 				</div>
 				<p> LAPTOP</p>
 			</div>
@@ -74,7 +74,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/router.png');?>">
 				</div>
 				<p> SWITCHES/ROUTER</p>
 			</div>
@@ -83,7 +83,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/server-rack.png');?>">
 				</div>
 				<p> SERVER RACK</p>
 			</div>
@@ -92,7 +92,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/cctv.png');?>">
 				</div>
 				<p> CCTV</p>
 			</div>

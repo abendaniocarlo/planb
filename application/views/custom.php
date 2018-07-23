@@ -47,7 +47,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/website.png');?>">
 				</div>
 				<p> GENERIC ONLINE RESERVATION </p>
 			</div>
@@ -56,7 +56,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/inventory1.png');?>">
 				</div>
 				<p> CUSTOMER LISY MODULE</p>
 			</div>

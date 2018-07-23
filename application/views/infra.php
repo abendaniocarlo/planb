@@ -47,7 +47,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/cabling.png');?>">
 				</div>
 				<p> CABLING </p>
 			</div>
@@ -56,7 +56,7 @@
 		<div class="col-md-3">
 			<div class="boxmodal">
 				<div class="round">
-					<img src="<?php echo base_url('assets/img/p8.png');?>">
+					<img src="<?php echo base_url('assets/img/product icons/voip.png');?>">
 				</div>
 				<p> TELEPHONY/VOIP</p>
 			</div>
