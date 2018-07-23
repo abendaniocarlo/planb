@@ -1,0 +1,435 @@
+/******** START OF PRODUCTS MAIN LANDING PAGE *********/
+
+/*TOP PART*/
+
+.bg{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: url(../img/bg6.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.ontop{
+	height: 100%;
+	background:rgba(0,0,0,0.7);
+}
+
+.logorep{
+	width: 100%;
+	height: 90px;
+	background-color: #063e47;
+	opacity: 0.7;
+	padding-left: 20px;
+	padding-top: 24px;
+}
+
+.logorep img{
+	height: 60px;
+	width: 180px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+
+.logorep p{
+	font-family: Montserrat;
+	color: #dd802c;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	margin: 10px 0 0 120px;
+}	
+
+.midtext{
+	text-align: center;
+	color: #FCF3CF;
+	font-family: Montserrat;
+	font-size: 70px;
+	margin: 150px auto;
+}
+
+.midtext p{
+	text-align: center;
+	font-family: Raleway;
+	font-size: 18px;
+}
+
+.explore:hover{
+	border:1px solid #dd802c;
+	color: #dd802c;
+}
+
+.explore{
+	width: 110px;
+	height: 50px;
+	background:transparent;
+	border: 1px solid #FCF3CF;
+	text-align: center;
+	position: relative;
+	float: center;
+	padding-left: 17px;
+	padding-top: 12px;
+	margin: 3% 0% auto 45%;
+	cursor: pointer;
+	color: #FCF3CF;
+}
+
+.etext{
+	font-size: 15px;
+	position: absolute;
+}
+
+/*SECTION FOR VIDEO PRESENTATION*/
+#particles-js{
+	width: 100%;
+}
+
+.video{
+	width: 100%;
+	height: 680px;
+	background-color: #063e47;
+	padding-top: 50px;
+	text-align: center;
+	color: #FCF3CF;
+	font-size: 40px;
+	font-family: Raleway;
+	font-style: bold;
+}
+
+hr{
+  	background-color: #dd802c;
+  	border-color: #dd802c;
+	display: block;
+	height: 2px;
+	width: 80%;
+}
+
+.video p{
+	color: #dd802c;
+	font-size: 20px;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+
+
+/*SECTION FOR PRODUCT SELECTION*/
+.boss{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background: url(../img/boss.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.boss:hover .top {
+	display: none;
+}
+.boss:hover .redirect{
+	display: block;
+}
+
+.individual{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/individual.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.individual:hover .top {
+	display: none;
+}
+.individual:hover .redirect{
+	display: block;
+}
+
+.mobile{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/mobileapp.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.mobile:hover .top {
+	display: none;
+}
+.mobile:hover .redirect{
+	display: block;
+}
+
+.e-comm{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/ecommerce.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.e-comm:hover .top {
+	display: none;
+}
+.e-comm:hover .redirect{
+	display: block;
+}
+
+.custom{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/custom.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.custom:hover .top {
+	display: none;
+}
+.custom:hover .redirect{
+	display: block;
+}
+
+.webhost{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/webhost.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.webhost:hover .top {
+	display: none;
+}
+.webhost:hover .redirect{
+	display: block;
+}
+
+.hardware{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/hardware.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.hardware:hover .top {
+	display: none;
+}
+.hardware:hover .redirect{
+	display: block;
+}
+
+.infra{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/infra.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.infra:hover .top {
+	display: none;
+}
+.infra:hover .redirect{
+	display: block;
+}
+
+.manymore{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/manymore.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.manymore:hover .top {
+	display: none;
+}
+.manymore:hover .redirect{
+	display: block;
+}
+
+.all{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: url(../img/all.jpg) center no-repeat;
+  	background-size: cover;
+  	height: 50%;
+}
+.all:hover .top {
+	display: none;
+}
+.all:hover .redirect{
+	display: block;
+}
+
+.top{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	max-width: 100%;
+	background:rgba(0,0,0,0.5);
+}
+
+.top p{
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 26px;
+	color: #fff;
+	top: 100;
+	padding-top: 270px;
+	display: block;
+}
+
+.redirect {
+  transition: .5s ease;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.redirect a{
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: Montserrat;
+}
+
+.redirect img{
+  max-width: 20%;
+  height: auto;
+}
+
+/******** END OF PRODUCTS MAIN LANDING PAGE *********/
+
+
+/******** START OF BOSSKIT *********/
+/*FULL PAGE NAV*/
+.overlaynav {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(6,62,71,1);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlaynav-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlaynav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #dd802c;
+    display: block;
+    transition: 0.3s;
+    font-family: Montserrat;
+    margin-top: 5px;
+}
+
+.overlaynav a:hover, .overlaynav a:focus {
+    color: #F9E79F;
+}
+
+.overlaynav .closebtn {
+    position: absolute;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlaynav {overflow-y: auto;}
+  .overlaynav a {font-size: 20px}
+  .overlaynav .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.bossk{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: url(../img/boss.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.view:hover{
+	border:1px solid #dd802c;
+	color: #dd802c;
+}
+
+.view{
+	width: 160px;
+	height: 50px;
+	background:transparent;
+	border: 1px solid #FCF3CF;
+	text-align: center;
+	position: relative;
+	float: center;
+	padding-left: 15px;
+	padding-top: 12px;
+	margin: 3% 0% auto 43%;
+	cursor: pointer;
+	color: #FCF3CF;
+}
+
+.items{
+  padding-top: 60px;
+  padding-bottom: 80px;
+  border-top: 3px solid #B7950B;
+  border-bottom: 3px solid #B7950B;
+  background-color: #EAEDED;
+}
+
+.boxmodal{
+  height: 200px;
+  width: 280px;
+  background-color: #F8F9F9;
+  text-align: center;
+  color: #000;
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 30px;
+}
+
+.boxmodal p{
+	color: #063e47;
+	font-family: Montserrat;
+	font-size: 15px;
+}
+
+.midtext2{
+	text-align: center;
+	color: #FCF3CF;
+	font-family: Montserrat;
+	font-size: 60px;
+	margin: 160px auto;
+}
+
+
+
+.round img{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 40%;
+  	height: auto;
+  	padding: 5px;
+  	border: 5px solid #063e47;
+  	border-radius: 50%;
+}
