@@ -42,13 +42,10 @@
 	<div class="container-fluid about" id="about">
 	<div class="row">
 		<div class="col-lg-6 col-md-12 col-sm-12">
-			<!-- <div class="box"> -->
 			<div class="flip-container"  ontouchstart="this.classList.toggle('next');">
 				<div class="flipper">
-					<div class="box2 front" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+					<div class="box2 front" style="font-family: Montserrat; font-weight: bold; font-size: 26px; color: #063e47;">
 						OUR HISTORY <br>
-						<!-- <img src="<?php echo base_url('assets/img/linedeco.png');?>"> -->
-						<hr></hr>
 						<p style="margin-top: 23px; font-family: Raleway;">Started as a technology support division of LRA Pacific Group®, the local partner of Smartmatic® for the first Philippine National Computerized Election in 2010 National technical support center, then on 2013 and 2016 including the field technical support for the vote counting machines on the entire Luzon area,
 						<br /><br />
 						From there the division evolved as technology provider for LRA Pacific Group client’s on facilities for the growing demands of BPO. From Planning, Data Center, Networking, Structured cabling, Software Engineering and system integration. As a technology outsourcing company with competitive expertise in software development and integration. Together as part of LRA Pacific, that has the expertise of providing clients from processing bare space up to live operations according to client’s specification.
@@ -72,78 +69,76 @@
 
 
 		<div class="col-lg-6 col-md-12 col-sm-12">
-			<!-- <div class="box">
- -->			<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;">
+
+ 			<div class="box2" style="font-family: Montserrat; font-weight: bold; font-size: 26px;color: #063e47;">
 					THE BIG DIFFERENCE <br />
-					<!-- <img src="<?php echo base_url('assets/img/linedeco.png');?>"> -->
-					<hr></hr>
+					
 					<p style="margin-top: 25px;">There are tons of cloud applications provider… it’s been here for a while, cheap, maintenance free and slim or no chance of downtime. E-commerce, CRM, HRIS, Warehouse and Logistics management, etc. some even offer free for a minimum number of users. Cool? Nah! Maybe you should ask yourselves. Are you sure your data is yours? Think again, it’s in the cloud. “Their” property”. And oh by the way, that data privacy issues that I hate to contest unless it’s on my safekeeping.
 					<br /><br />
 					So what’s the plan if cloud apps that have been offered have no data privacy at all? Go for Plan B. All our products are also web based, the only difference is it’s your property, your terms, your security and definitely YOUR database on your choice of “Private” web server. You paid for it so It’s all yours.</p>
 				</div>
-			<!-- </div> -->
+			
 		</div>
 	</div>
 	</div>
 
-	<div class="services" id="services" >
-		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-			<ol class="carousel-indicators">
-				<li data-target="myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="myCarousel" data-slide-to="1"></li>
-				<li data-target="myCarousel" data-slide-to="2"></li>
-				<li data-target="myCarousel" data-slide-to="3"></li>
-				<li data-target="myCarousel" data-slide-to="4"></li>
-			</ol>
-
-			<div class="carousel-inner ci">
-				<p style="font-weight: bolder; text-align: center; font-family: Montserrat; font-size: 28px; color: #fff; ">
+	<div id="services">
+		<div class="services">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    			<p style="font-weight: bolder; text-align: center; font-family: Montserrat; font-size: 28px; color: #fff; padding-top: 90px;">
 				WE OFFER & DEVELOP</p><br />
 				<h2></h2>
-				
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			      <li data-target="#myCarousel" data-slide-to="3"></li>
+			      <li data-target="#myCarousel" data-slide-to="4"></li>
+			    </ol>
 
-				<div class="item active">
-						
-				  <div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%; font-family: Raleway;">
-				  	IT programs, including Accounting, CRM, Data mining system, POS, Human resource Management, Medical and other small and medium business software, to provide our customer with expert service.
-				  </div>
-				</div>
+			    <div class="carousel-inner">
+			      <div class="item active">
+			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
+					  	IT programs, including Accounting, CRM, Data mining system, POS, Human resource Management, Medical and other small and medium business software, to provide our customer with expert service.
+					</div>
+			      </div>
 
-				<div class="item">
-				  	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
-				  	Facilities and Network Services include from Planning, Structured Cabling, Electrical System, Electronic Security System (Door access and CCTV products) and Telephony Systems.
-				  </div>
-				</div>
-				    
-				<div class="item">
-				   	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+			      <div class="item">
+			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
+					  	Facilities and Network Services include from Planning, Structured Cabling, Electrical System, Electronic Security System (Door access and CCTV products) and Telephony Systems.
+					  </div>
+			      </div>
+			    
+			      <div class="item">
+			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
 				  	Workstation and server maintenance, full helpdesk, network support remote and in-house as well. As required or at a fixed cost as part of our Managed Services.
 				  </div>
-				</div>
+			      </div>
 
-				<div class="item">
-				  	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+			      <div class="item">
+			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
 				  	Ongoing IT support and advice to assist in the success and productivity of your business.
 				  </div>
-				</div>
-				    
-				<div class="item">
-				   	<div style="font-size: 22px; color: #fff;text-align: justify; padding-left: 15%; padding-right:15%;">
+			      </div>
+
+			      <div class="item">
+			        <div style="font-size: 26px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway; ">
 				  	Mobile apps for IOS, Android and Windows.
 				  </div>
-				</div>
+			      </div>
+			    </div>
 
-				<!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a> -->
-			</div>
-
-		</div>		
+			    <!-- Left and right controls -->
+			    <a class="left carousel-control" data-target="#myCarousel" data-slide="prev">
+			      <span class="glyphicon glyphicon-chevron-left"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" data-target="#myCarousel" data-slide="next">
+			      <span class="glyphicon glyphicon-chevron-right"></span>
+			      <span class="sr-only">Next</span>
+			    </a>
+			  </div>
+		</div>
 	</div>
 
 	<div class="container-fluid s1">
@@ -256,7 +251,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Hotel + Inventory Boss Kit</li>
 						</ul>
 						<div class="middle">
-							<a href="http://www.kabslash.solutions/" target="_blank"> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/bosskit'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -270,7 +265,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Clinic Information Kit</li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/indikit'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -284,7 +279,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Android </li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/mobile'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -301,7 +296,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Loren ipsum dolor sit amet</li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/ecom'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -315,7 +310,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Loren ipsum dolor sit amet</li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/custom'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -329,7 +324,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Loren ipsum dolor sit amet</li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/webhost'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -347,7 +342,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> CCTV</li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/hardware'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -361,7 +356,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> Loren ipsum dolor sit amet</li>
 						</ul>
 						<div class="middle">
-							<a href=""> LEARN MORE</a>
+							<a href="<?php echo base_url('planb_controller/infra'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>
@@ -375,7 +370,7 @@
 							<li><span class="lnr lnr-checkmark-circle"></span> F1 Technical Support/Help Desk</li>
 						</ul>
 						<div class="middle">
-							<a href=""> See All Products</a>
+							<a href="<?php echo base_url('planb_controller/products'); ?>" target="_blank"> LEARN MORE</a>
 						</div>
 				</div>
 			</div>

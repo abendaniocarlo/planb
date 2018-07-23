@@ -16,8 +16,84 @@ class planb_controller extends CI_Controller {
 	{
 		$header_data['title']="Plan B";
 		$this->load->view('include/header',$header_data);
-		$this->load->view('include/main');
+		$this->load->view('main');
 		$this->load->view('include/footer');
+	}
+
+	public function products(){
+		$header_data['title']="Products";
+		$this->load->view('include/header');
+		$this->load->view('products',$header_data);
+		$this->load->view('include/footer_products');
+	}
+	public function bosskit(){
+		$header_data['title']="Package Boss Kit";
+		$this->load->view('include/header');
+		$this->load->view('bosskit',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function indikit(){
+		$header_data['title']="Individual Kit";
+		$this->load->view('include/header');
+		$this->load->view('indikit',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function mobile(){
+		$header_data['title']="Mobile App Kit";
+		$this->load->view('include/header');
+		$this->load->view('mobile',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function ecom(){
+		$header_data['title']="E-Commerce";
+		$this->load->view('include/header');
+		$this->load->view('ecom',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function custom(){
+		$header_data['title']="Package Boss Kit";
+		$this->load->view('include/header');
+		$this->load->view('custom',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function webhost(){
+		$header_data['title']="Web Hosting";
+		$this->load->view('include/header');
+		$this->load->view('webhost',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function hardware(){
+		$header_data['title']="Hardware";
+		$this->load->view('include/header');
+		$this->load->view('hardware',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function infra(){
+		$header_data['title']="Infrastructure";
+		$this->load->view('include/header');
+		$this->load->view('infra',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function other(){
+		$header_data['title']="Other Products";
+		$this->load->view('include/header');
+		$this->load->view('other',$header_data);
+		$this->load->view('include/footer_products');
+	}
+
+	public function all(){
+		$header_data['title']="All Products";
+		$this->load->view('include/header');
+		$this->load->view('all',$header_data);
+		$this->load->view('include/footer_products');
 	}
 
 	public function send_message(){
