@@ -85,7 +85,7 @@
 	<div id="services">
 		<div class="services">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-    			<p style="font-weight: bolder; text-align: center; font-family: Montserrat; font-size: 28px; color: #fff; padding-top: 90px;">
+    			<p style="font-weight: bolder; text-align: center; font-family: Montserrat; font-size: 28px; color: #000; padding-top: 90px;">
 				WE OFFER & DEVELOP</p><br />
 				<h2></h2>
 			    <ol class="carousel-indicators">
@@ -98,31 +98,31 @@
 
 			    <div class="carousel-inner">
 			      <div class="item active">
-			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
+			        <div style="font-size: 25px; color: #000;text-align: center; padding-left: 15%; padding-right:15%; font-family: Montserrat;">
 					  	IT programs, including Accounting, CRM, Data mining system, POS, Human resource Management, Medical and other small and medium business software, to provide our customer with expert service.
 					</div>
 			      </div>
 
 			      <div class="item">
-			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
+			        <div style="font-size: 25px; color: #000;text-align: center; padding-left: 15%; padding-right:15%; font-family: Montserrat;">
 					  	Facilities and Network Services include from Planning, Structured Cabling, Electrical System, Electronic Security System (Door access and CCTV products) and Telephony Systems.
 					  </div>
 			      </div>
 			    
 			      <div class="item">
-			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
+			        <div style="font-size: 25px; color: #000;text-align: center; padding-left: 15%; padding-right:15%; font-family: Montserrat;">
 				  	Workstation and server maintenance, full helpdesk, network support remote and in-house as well. As required or at a fixed cost as part of our Managed Services.
 				  </div>
 			      </div>
 
 			      <div class="item">
-			        <div style="font-size: 25px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway;">
+			        <div style="font-size: 25px; color: #000;text-align: center; padding-left: 15%; padding-right:15%; font-family: Montserrat;">
 				  	Ongoing IT support and advice to assist in the success and productivity of your business.
 				  </div>
 			      </div>
 
 			      <div class="item">
-			        <div style="font-size: 26px; color: #fff;text-align: center; padding-left: 15%; padding-right:15%; font-family: Raleway; ">
+			        <div style="font-size: 26px; color: #000;text-align: center; padding-left: 15%; padding-right:15%; font-family: Montserrat; ">
 				  	Mobile apps for IOS, Android and Windows.
 				  </div>
 			      </div>
@@ -211,7 +211,7 @@
 		<div class="blackoverlay2" data-aos="fade-right">
 			<div class="title2">
 				MULTI PLATFORMS 
-				<p style="font-size: 32px; color: #fff;">FOR SOFTWARE <br>DEVELOPMENT</p>
+				<p style="font-size: 32px; color: #063e47; font-weight: bolder;">FOR SOFTWARE <br>DEVELOPMENT</p>
 			</div>
 		</div>
 
@@ -381,7 +381,7 @@
 		<div class="blackoverlay" data-aos="fade-right" >
 			<div class="title">
 				OTHER AREAS OF
-				<p style="font-size: 41px; color: #fff;">EXPERTISE</p>
+				<p style="font-size: 41px; color: #063e47; font-weight: bolder;">EXPERTISE</p>
 			</div>
 		</div>
 		<div class="banner" data-aos="fade-left" >
@@ -441,7 +441,7 @@
 		<h2></h2>
 		<div id="myClientCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
 		    <div class="carousel-inner">
-		      <div class="item active" style="background-color:#F4E7C4;">
+		      <div class="item active" style="background-color:#fff;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -459,7 +459,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#F4E7C4;">
+		      <div class="item" style="background-color:#fff;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -477,7 +477,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#F4E7C4;">
+		      <div class="item" style="background-color:#fff;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -495,7 +495,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#F4E7C4;">
+		      <div class="item" style="background-color:#fff;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -513,7 +513,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#F4E7C4;">
+		      <div class="item" style="background-color:#fff;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -531,7 +531,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#F4E7C4;">
+		      <div class="item" style="background-color:#fff;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -549,7 +549,7 @@
 					</div>
 				</div>
 		      </div>
-		      <div class="item" style="background-color:#F4E7C4;">
+		      <div class="item" style="background-color:#fff;">
 		      	<div class="container">
 					<div class="row">
 					  <div class="column">
@@ -582,7 +582,7 @@
 	<div id="workprocess" class="workprocess">
 		<div class="screen">
 		<div class="inner_workprocess">
-			<p class="headline" style="margin-top:60px; color:#fff;"> WORK PROCESS</p>
+			<p class="headline" style="margin-top:60px; color:#000;"> WORK PROCESS</p>
 <!-- 			<hr style="width: 200px;" />
  -->			
  			<h2></h2>
@@ -688,7 +688,7 @@
 							<br /><br /><br /><br />
 		<?php endif; ?> -->
 
-		<h1 style="text-align:center;">CONTACT US</h1>
+		<h1 style="text-align:center; color:  #000;">CONTACT US</h1>
 
 <!-- 		<hr style="width: 200px;" /> -->
 		<br>

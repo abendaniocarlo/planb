@@ -6,14 +6,14 @@
   height: 100%;
   position: relative;
   overflow: hidden;
-  background: url(../img/bg6.jpg) center no-repeat;
+  background: url(../img/bg7.jpg) center no-repeat;
   background-size: cover;
 }
 
-.ontop{
+/*.ontop{
 	height: 100%;
 	background:rgba(0,0,0,0.7);
-}
+}*/
 
 .logorep{
 	width: 100%;
@@ -44,7 +44,7 @@
 
 .midtext{
 	text-align: center;
-	color: #FCF3CF;
+	color: #000;
 	font-family: Montserrat;
 	font-size: 70px;
 	margin: 150px auto;
@@ -65,7 +65,7 @@
 	width: 110px;
 	height: 50px;
 	background:transparent;
-	border: 1px solid #FCF3CF;
+	border: 1px solid #000;
 	text-align: center;
 	position: relative;
 	float: center;
@@ -73,7 +73,7 @@
 	padding-top: 12px;
 	margin: 3% 0% auto 45%;
 	cursor: pointer;
-	color: #FCF3CF;
+	color: #000;
 }
 
 .etext{
@@ -89,12 +89,12 @@
 .video{
 	width: 100%;
 	height: 680px;
-	background-color: #063e47;
+	background-color:#97CECC;
 	padding-top: 50px;
 	text-align: center;
-	color: #FCF3CF;
+	color: #063e47;
 	font-size: 40px;
-	font-family: Raleway;
+	font-family: Montserrat;
 	font-style: bold;
 }
 
@@ -366,7 +366,7 @@ hr{
   height: 100%;
   position: relative;
   overflow: hidden;
-  background: url(../img/boss.jpg) center no-repeat;
+  background: url(../img/bg8.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -379,7 +379,7 @@ hr{
 	width: 160px;
 	height: 50px;
 	background:transparent;
-	border: 1px solid #FCF3CF;
+	border: 1px solid #000;
 	text-align: center;
 	position: relative;
 	float: center;
@@ -387,7 +387,7 @@ hr{
 	padding-top: 12px;
 	margin: 3% 0% auto 43%;
 	cursor: pointer;
-	color: #FCF3CF;
+	color: #000;
 }
 
 .items{
@@ -416,7 +416,7 @@ hr{
 
 .midtext2{
 	text-align: center;
-	color: #FCF3CF;
+	color: #000;
 	font-family: Montserrat;
 	font-size: 60px;
 	margin: 160px auto;

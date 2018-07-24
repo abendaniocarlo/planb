@@ -13,14 +13,14 @@ html {
 
 body {
   font-size: 1.3em;
-  background-color: #F4E7C4;
+  background-color: #fff;
 }
 
 header {
   height: 100%;
   position: relative;
   overflow: hidden;
-  background: url(../img/bg5.jpg) center no-repeat;
+  background: url(../img/bg12.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -71,8 +71,20 @@ header .overlay {
 
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
   right: 60px; 
+  color: #000;
 }
 
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
+  color: #000;
+}
+
+.carousel-indicators li{
+  border-color: #000;
+}
+
+.carousel-indicators .active{
+  background-color: #000;
+}
 /*.carousel-control {
     width: 8%
 }*/
@@ -389,9 +401,8 @@ nav ul li a:focus{
 .about{
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #E59866;
+  background-color: #EAECEE;
 }
-
 .mission{
   text-align: center; 
   font-size: 26px;
@@ -413,10 +424,10 @@ nav ul li a:focus{
   padding-top: 30px;
   height: 500px;
   width: 600px;
-  background-color: #EAD19E;
+  background-color: #F8F9F9;
   text-align: center;
   color: #000;
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 10px 10px 5px gray;
 }
 
 .box2 > p {
@@ -486,7 +497,7 @@ nav ul li a:focus{
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #F4E7C4;
+  background-color: #fff;
 }
 
 .s1body{
@@ -514,7 +525,7 @@ nav ul li a:focus{
 
 .services {
   position: relative;
-  background-color: rgba(6, 62, 71, 0.8);
+  background-color: rgba(151,206,204,0.7);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -545,7 +556,7 @@ nav ul li a:focus{
 
 
 .services h2::before {
-    background: #fff;
+    background: #000;
     content: '';
     width: 75px;
     height: 6px;  
@@ -590,7 +601,7 @@ nav ul li a:focus{
 }
 
 #workprocess h2::before {
-    background: #fff;
+    background: #000;
     content: '';
     width: 75px;
     height: 6px;  
@@ -614,7 +625,7 @@ nav ul li a:focus{
 }
 
 #contact_us h2::before {
-    background: #fff;
+    background: #000;
     content: '';
     width: 75px;
     height: 6px;  
@@ -636,13 +647,13 @@ nav ul li a:focus{
   height: 700px;
   width:40%;
   float: left;
-  background-color: rgba(6, 62, 71, 0.8);
+  background-color: rgba(221,128,44,0.8);
 }
 
 .banner2{
   margin-top: 8%;
   right: 40px;
-  background-color: #E59866;
+  background-color: #EAECEE;
   height: 530px;
   width: 70%;
   position: absolute;
@@ -655,7 +666,7 @@ nav ul li a:focus{
   position: absolute;
   margin-top: 24%;
   margin-left: 12%;
-  color: #B2BABB;
+  color: #fff;
 }
 
 .platforms img{
@@ -680,7 +691,7 @@ nav ul li a:focus{
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #EAD19E;
+  background-color: #fff;
 }
 
 .products img{
@@ -751,13 +762,13 @@ nav ul li a:focus{
   height: 700px;
   width:40%;
   float: left;
-  background-color: rgba(6, 62, 71, 0.8);
+  background-color: rgba(221,128,44,0.8);
 }
 
 .banner{
   margin-top: 7%;
   right: 50px;
-  background-color: #E59866;
+  background-color: #EAECEE;
   height: 550px;
   width: 70%;
   position: absolute;
@@ -769,7 +780,7 @@ nav ul li a:focus{
   position: absolute;
   margin-top: 24%;
   margin-left: 13%;
-  color: #B2BABB;
+  color: #fff;
 }
 /*html, body{
   padding: 0;
@@ -836,7 +847,7 @@ nav ul li a:focus{
   position: relative;
   top: -30px;
   padding: 30px 0px 0px 0px;
-  background-color: rgba(6, 62, 71, 0.8);
+  background-color: rgba(151,206,204,0.7);
 }
 .inner_workprocess{
   transform: skewY(3deg);
@@ -856,7 +867,7 @@ nav ul li a:focus{
   padding: auto;
   text-align: center;
   font-family: Quicksand;
-  color: #FFFFFF;
+  color: #000;
 
 }
 /* END OF WORK PROCESS SECTION*/
@@ -864,7 +875,7 @@ nav ul li a:focus{
 /******CLIENTS SECTION******/
 .clients{
   padding: 50px 0px 0px 0px;
-  background-color: #F4E7C4;
+  background-color: #fff;
   position: relative;
   height: 500px;
 }
@@ -881,24 +892,24 @@ nav ul li a:focus{
 .clients  .container > .row > .column > img{
     margin:auto;
     width: 258px;
-    /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-   /* filter: grayscale(100%);
+/*    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);
     transition: all 0.2s ease-in-out;*/
 }
 /*.clients  .container > .row > .column > img:hover{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-   /* filter: grayscale(0%);
+    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(0%);
     cursor: pointer;
 }*/
 
 .clients .carousel-inner > .item{
   height: 400px;
 }
-/******END OF CLIENTS SECTION******/
+/******END OF CLIENTS SECTION*****/
 
-/******** PARTNERS SECTION *********/
+/******** PARTNERS SECTION ********/
 .partners{
-  background-color:  #F4E7C4;
+  background-color:  #fff;
   padding: 100px 0px 80px 0px;
   position: relative;
 }
@@ -925,14 +936,14 @@ nav ul li a:focus{
 /******** CONTACT US/FOOTER SECTION *********/
 .footer{
   font-family: Montserrat;
-  color: #FFFFFF;
+  color: #fff;
   background: url(../img/bgfooter.jpeg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width:100%;
 }
 .footer > .footerscreen{
-  background-color: rgba(6, 62, 71, 0.8);
+  background-color: rgba(151,206,204,0.7);
   height: 700px;
   padding-top: 100px;
 }
@@ -982,7 +993,7 @@ nav ul li a:focus{
   height: 400px;
   width: 30%;
   padding: 35px;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(6,62,71,0.5);
   text-align: center;
 }
 /******** END OF CONTACT US/FOOTER SECTION *********/
